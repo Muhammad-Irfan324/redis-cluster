@@ -1,15 +1,3 @@
-# - Kubernetes deployments/ configuration files 
-    
-        - ADDED
-
-# - Jenkins Pipeline
-
-        - ADDED FOR DEPLOYING REDIS HA CLUSTER
-
-# - Report of what you did and how to test your setup
-
-        - HOW AND TEST EXPLAIN ALL BELOW WITH SCREEN SHOTS
-
 # - Explain how can we maitane the configurations and version them?
 
 `Let's say in future we want to modify the redis docker image with this jenkins job we can modify the image as many time as we want coz we're adding tag in jenkin job and pushing image and using that tag in manifest so that how we can mantain and version them. By running the Jenkins job there's an option build with parameter where we can change the TAG and that value will be added to image and use in manifest. So that is how we can maintain versioning. And Configuration can be stored in any Version control.`
